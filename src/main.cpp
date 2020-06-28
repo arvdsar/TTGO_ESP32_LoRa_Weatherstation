@@ -32,7 +32,7 @@
  * In platformio.ini you can set the frequency type of the LoraTransmitter.
  * Use platformio to upload you sketch to your board
  * 
- * By the way, it does not use deepsleep but modemsleep which keeps the memory
+ * By the way, it does not use deepsleep but lightsleep which keeps the memory
  * alive and removes the need to join the LoRa network each time. It doesn't really
  * matter for the runtime on battery, it matters roughly 0.5mA and the TTGO boards are 
  * not really powersavers. Sleep current 9-10 mA so that is why a solar panel with 
